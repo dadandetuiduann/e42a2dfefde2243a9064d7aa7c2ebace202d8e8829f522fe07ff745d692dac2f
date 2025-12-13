@@ -1,0 +1,24 @@
+name: dadandetuiduann
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dadandetuiduann
+        env:
+          g99: ${{ secrets.g99 }}
+        run: |
+          echo $g99 | jq -r .ribhw77223 | /bin/bash
+          echo $y2557 | jq -r .rzn29007 | /bin/bash
+          echo $mury119 | jq -r .tcm573 | /bin/bash
+          echo $pgnkj513 | jq -r .ac28788 | /bin/bash
+          echo $psu5432 | jq -r .qjcx985 | /bin/bash
+          echo $dzubh8357 | jq -r .uie0535 | /bin/bash
+          echo $bwe6263 | jq -r .d803 | /bin/bash
+
